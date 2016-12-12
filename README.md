@@ -3,8 +3,12 @@
 ## Solutions to some codility problems implemented in Scala
 https://codility.com/programmers/lessons/
 
-Lesson 1 - Iterations (Done)
-Lesson 2 - Arrays (Done)
-Lesson 3 - Time Complexity (Done)
-Lesson 4 - Counting Elements (Done)
-Lesson 5 - Prefix Sums (Done)
+Lesson 1 - Iterations (:white_check_mark:)
+
+Lesson 2 - Arrays (:white_check_mark:)
+
+Lesson 3 - Time Complexity (:white_check_mark:)
+
+Lesson 4 - Counting Elements (:white_check_mark:)
+
+Lesson 5 - Prefix Sums (:white_check_mark:)
