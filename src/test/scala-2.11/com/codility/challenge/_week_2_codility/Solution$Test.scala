@@ -20,7 +20,7 @@ class Solution$Test extends FunSuite {
   }
 
   test ("testSolution 3") {
-    assert(Solution.solution(1, 17) == 5)
+    assert(Solution.solution(1, 17) == 4)
   }
 
   test ("testSolution 4") {
@@ -29,6 +29,22 @@ class Solution$Test extends FunSuite {
 
   test ("testSolution 5") {
     assert(Solution.solution(9, 17) == 2)
+  }
+
+  test ("testSolution 6") {
+    assert(Solution.solution(0, 0) == 1)
+  }
+
+  test ("testSolution 7") {
+    assert(Solution.solution(Int.MinValue, Int.MaxValue) == 46341)
+  }
+
+  test ("testSolution 8") {
+    assert(Solution.solution(Int.MinValue, 0) == 1)
+  }
+
+  test ("testSolution 9") {
+    assert(Solution.solution(0, Int.MaxValue) == 46341)
   }
 
 
