@@ -4,7 +4,7 @@
 		module="codility-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161213221426"
+		publication="20161214094521"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
