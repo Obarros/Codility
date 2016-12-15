@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/obarros/IdeaProjects/Codility/project/}codility-build...
+[info] Updating {file:/Users/Obarros/IdeaProjects/Codility/project/}codility-build...
 [debug] :: resolving dependencies :: default#codility-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#codility-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#codility-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@222064d5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d65e74b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 4316ms :: artifacts dl 127ms
-[debug] 	report for default#codility-build;0.1-SNAPSHOT compile produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-compile.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT runtime produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-runtime.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT test produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-test.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT provided produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-provided.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT optional produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-optional.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT compile-internal produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-compile-internal.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT runtime-internal produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-runtime-internal.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT test-internal produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-test-internal.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT plugin produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-plugin.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT sources produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-sources.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT docs produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-docs.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT pom produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-pom.xml
-[debug] 	report for default#codility-build;0.1-SNAPSHOT scala-tool produced in /Users/obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-scala-tool.xml
-[debug] 	resolve done (4316ms resolve - 127ms download)
+[debug] :: resolution report :: resolve 4785ms :: artifacts dl 249ms
+[debug] 	report for default#codility-build;0.1-SNAPSHOT compile produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-compile.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT runtime produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-runtime.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT test produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-test.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT provided produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-provided.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT optional produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-optional.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT compile-internal produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-compile-internal.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT runtime-internal produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-runtime-internal.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT test-internal produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-test-internal.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT plugin produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-plugin.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT sources produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-sources.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT docs produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-docs.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT pom produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-pom.xml
+[debug] 	report for default#codility-build;0.1-SNAPSHOT scala-tool produced in /Users/Obarros/IdeaProjects/Codility/project/target/resolution-cache/reports/default-codility-build-scala-tool.xml
+[debug] 	resolve done (4785ms resolve - 249ms download)
 [info] Done updating.

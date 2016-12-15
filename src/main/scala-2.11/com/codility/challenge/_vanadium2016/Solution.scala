@@ -25,6 +25,22 @@ object Solution {
       listMap
     }
 
+    // Loop over all the index and check possible combination
+    // Return the count of the combination that is part of the solution
+
+    def loop(sss: String) : Int = {
+      val end =sss.length
+      var result = 0
+      for(i <- 0 until end ){
+        val comb = getAllPermutation(sss, i)
+        val combMap = splitAndCount(comb)
+
+      }
+      result
+    }
+
+
+
      0
   }
 
