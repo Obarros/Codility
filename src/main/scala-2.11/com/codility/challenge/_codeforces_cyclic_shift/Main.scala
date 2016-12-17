@@ -7,18 +7,17 @@ object Main {
   def main(args: Array[String]): Unit = {
     val word = scala.io.StdIn.readLine()
     print(solution(word))
-
   }
 
   def solution(s: String): Int = {
-    mapListOfShiftStrinf(s).length
+    mapListOfShiftString(s).length
   }
 
   def shifString(s: String): String = {
     s.substring(1, s.length) + s.charAt(0)
   }
 
-  def mapListOfShiftStrinf(s: String): List[String] = {
+  def mapListOfShiftString(s: String): List[String] = {
     var result = List[String]()
     var value = s
     var resultI = s

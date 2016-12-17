@@ -68,6 +68,7 @@ getAllPermutation(s, 5)
 
 
 splitAndCount(getAllPermutation(s, 4))
+<<<<<<< HEAD
 splitAndCount1(getAllPermutation(s, 4))
 
 def shifString(s: String): String = {
@@ -91,3 +92,9 @@ def mapListOfShiftStrinf(s: String): List[String] = {
 
 
 mapListOfShiftStrinf("abcd")
+=======
+val test  = splitAndCount1(getAllPermutation(s, 4))
+val test2= test.map( x => x.map( z => (z, 1)))
+val test3 = test2.map( x => x.groupBy( x => x._1))
+test3.map()
+>>>>>>> e2010a6c9216dc002ce8c6ed36a34810b0210e05
