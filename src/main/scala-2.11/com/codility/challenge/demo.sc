@@ -69,3 +69,25 @@ getAllPermutation(s, 5)
 
 splitAndCount(getAllPermutation(s, 4))
 splitAndCount1(getAllPermutation(s, 4))
+
+def shifString(s: String): String = {
+  s.substring(1, s.length) + s.charAt(0)
+}
+
+def mapListOfShiftStrinf(s: String): List[String] = {
+  var result = List[String]()
+  var value = s
+  var resultI = s
+  result =   s :: result
+  for (i <- 0 until s.length) {
+    result = shifString(resultI) :: result
+    value = shifString(value)
+    resultI =  value
+    println(value)
+  }
+  result.distinct
+}
+
+
+
+mapListOfShiftStrinf("abcd")
